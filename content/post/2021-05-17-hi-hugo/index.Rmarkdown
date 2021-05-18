@@ -1,5 +1,5 @@
 ---
-title: Hi Hugo
+title: Mi primer post
 author: R package build
 date: '2021-05-17'
 slug: hi-hugo
