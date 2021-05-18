@@ -19,6 +19,14 @@ projects: []
 
 ```{r}
 library(ggplot2)
+library(dplyr)
+library(printr)
+Orange %>% group_by(Tree) %>%
+  count() %>% as.data.frame()
+```
+
+```{r}
+library(ggplot2)
 oplot <- ggplot(Orange, aes(x = age, 
                    y = circumference, 
                    colour = Tree)) +
